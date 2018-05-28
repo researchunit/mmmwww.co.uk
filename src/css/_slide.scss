@@ -7,19 +7,23 @@ img {
 
 .caption {
   text-align: left;
+  margin-top: 5px;
 }
 
 .carousel {
   text-align: center;
   max-width: 100%;
   overflow: hidden;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 .carousel-cell {
   text-align: center;
+  overflow: hidden;
   width: 100%;
+}
+
+.image {
+  display: inline-block;
 }
 
 .button-row {
@@ -52,13 +56,37 @@ img {
   height: 100%;
   width: 30%;
   z-index: 1;
+  outline: none !important;
 }
 
 .button.button--next {
   position: absolute;
   right: 0;
   top: 0;
-  height: 100%;
+  height: 90%;
   width: 30%;
   z-index: 1;
+  outline: none !important;
+}
+/*! Flickity v2.1.1
+https://flickity.metafizzy.co
+---------------------------------------------- */
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus {
+  outline: none;
+}
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
