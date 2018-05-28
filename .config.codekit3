@@ -9,18 +9,51 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/docs\/.gitignore",
+		"oF": 1
+		},
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/docs\/CNAME",
-		"oF": 0
+		"oF": 1
 		},
 	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/docs\/docs",
 		"oF": 0
+		},
+	"\/src\/css\/_info.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/docs\/css\/_info.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/_nav.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/docs\/css\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/src\/css\/_normalize.scss": {
 		"aP": 1,
@@ -32,6 +65,19 @@
 		"oA": 0,
 		"oAP": "\/docs\/css\/_normalize.css",
 		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/_slide.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/docs\/css\/_slide.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -58,7 +104,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/css\/main.css",
 		"oF": 1,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/src\/img\/android-icon-144x144.png": {
@@ -347,6 +393,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/img\/studio-2.jpg": {
+		"ft": 16384,
+		"iS": 797030,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/studio-2.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/img\/studio.jpg": {
 		"ft": 16384,
 		"iS": 320196,
@@ -359,11 +416,21 @@
 		"q": 100
 		},
 	"\/src\/index.html": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/docs\/index.html",
 		"oF": 1
+		},
+	"\/src\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/docs\/js\/main.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
 		}
 	},
 "hooks": [
@@ -376,7 +443,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/src\/img\/apple-icon-180x180.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 549104042
+	"lastBuiltDate": 549145186
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

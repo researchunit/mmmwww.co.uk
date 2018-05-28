@@ -1,0 +1,16 @@
+footer,
+nav {
+  z-index: 2;
+}
+
+nav h1 {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+}
+
+footer h2 {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+}
