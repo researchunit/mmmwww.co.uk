@@ -909,6 +909,13 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/src\/index.html": {
+		"cB": 1,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/index.html",
+		"oF": 1
 		}
 	},
 "hooks": [
