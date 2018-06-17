@@ -16,20 +16,6 @@
 		"oAP": "\/docs\/.gitignore",
 		"oF": 1
 		},
-	"\/beta2\/beta\/css\/main.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/docs\/beta2\/beta\/css\/main.css.map",
-		"oF": 0
-		},
-	"\/beta2\/css\/main.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/docs\/beta2\/css\/main.css.map",
-		"oF": 0
-		},
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -640,7 +626,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/src\/img\/apple-icon-180x180.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 550970060
+	"lastBuiltDate": 550970631
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
