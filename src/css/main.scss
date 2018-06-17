@@ -25,6 +25,8 @@
 *:after,
 *:before {
   box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body,

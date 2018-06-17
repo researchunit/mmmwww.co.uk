@@ -1,12 +1,8 @@
 .btn {
-  position: absolute;
+  position: fixed;
   right: 18px;
   top: 18px;
   cursor: help;
-}
-
-.btn a:active {
-  background-color: yellow;
 }
 
 #custom_modal {
@@ -35,6 +31,9 @@
   width: 100%;
   margin: 0 auto;
   background-color: rgba(218,218,218,0.90);
+  @include resize(small) {
+    min-height: 100%;
+  }
 }
 
 .close_btn {
@@ -81,5 +80,15 @@
   width: 15%;
   @include resize(small) {
     width: 100%;
+  }
+}
+
+.break {
+  display: none;
+  @include resize(mid) {
+    display: inline-block;
+  }
+  @include resize(small) {
+    display: none;
   }
 }

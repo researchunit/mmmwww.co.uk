@@ -65,7 +65,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/css\/_normalize.css",
 		"oF": 1,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/src\/css\/_slide.scss": {
@@ -100,7 +100,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/docs\/css\/main.css",
 		"oF": 1,
@@ -294,12 +294,85 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/img\/begg01.jpg": {
+		"ft": 16384,
+		"iS": 278205,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/begg01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"\/src\/img\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/docs\/img\/browserconfig.xml",
 		"oF": 1
+		},
+	"\/src\/img\/Code.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/img\/Code.pdf",
+		"oF": 0
+		},
+	"\/src\/img\/DFMW01.jpg": {
+		"ft": 16384,
+		"iS": 230741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/DFMW01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/DFMW02.jpg": {
+		"ft": 16384,
+		"iS": 152169,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/DFMW02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/edgeout01.jpg": {
+		"ft": 16384,
+		"iS": 414542,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/edgeout01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/edgeout02.jpg": {
+		"ft": 16384,
+		"iS": 223607,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/edgeout02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/edgeout03.jpg": {
+		"ft": 16384,
+		"iS": 266551,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/edgeout03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"\/src\/img\/favicon-16x16.png": {
 		"ft": 32768,
@@ -393,16 +466,93 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/img\/plastic01.jpg": {
+		"ft": 16384,
+		"iS": 379952,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/plastic01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/plastic02.jpg": {
+		"ft": 16384,
+		"iS": 504808,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/plastic02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/plastic03.jpg": {
+		"ft": 16384,
+		"iS": 472915,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/plastic03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/plastic04.jpg": {
+		"ft": 16384,
+		"iS": 563244,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/plastic04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"\/src\/img\/studio-2.jpg": {
 		"ft": 16384,
 		"iS": 797030,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/studio-2.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
+		},
+	"\/src\/img\/studio-3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/studio-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/studio-4.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/studio-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/studio-5.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/studio-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"\/src\/img\/studio.jpg": {
 		"ft": 16384,
@@ -410,10 +560,43 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/studio.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
+		},
+	"\/src\/img\/studio01.jpg": {
+		"ft": 16384,
+		"iS": 314870,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/studio01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/studio02.jpg": {
+		"ft": 16384,
+		"iS": 382595,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/studio02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"\/src\/img\/studio03.jpg": {
+		"ft": 16384,
+		"iS": 387271,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/studio03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"\/src\/index.html": {
 		"cB": 1,
@@ -428,9 +611,9 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/docs\/js\/main.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 0,
-		"tS": 0
+		"tS": 1
 		}
 	},
 "hooks": [
@@ -443,7 +626,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/src\/img\/apple-icon-180x180.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 549145186
+	"lastBuiltDate": 549757835
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2247,7 +2430,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 85
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2258,8 +2441,8 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
-		"transpilerStyle": 0
+		"syntaxCheckerStyle": 0,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsJSON": {
 		"autoOutputAction": 0,
