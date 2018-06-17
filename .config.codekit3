@@ -16,11 +16,18 @@
 		"oAP": "\/docs\/.gitignore",
 		"oF": 1
 		},
-	"\/beta\/css\/main.css.map": {
+	"\/beta2\/beta\/css\/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/beta\/css\/main.css.map",
+		"oAP": "\/docs\/beta2\/beta\/css\/main.css.map",
+		"oF": 0
+		},
+	"\/beta2\/css\/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/beta2\/css\/main.css.map",
 		"oF": 0
 		},
 	"\/CNAME": {
