@@ -1,64 +1,46 @@
-@mixin resize($point) {
-  @if $point == large {
-    @media (max-width: 1600px) {
-      @content;
-    }
-  } @else 
-  if $point == mid {
-    @media (max-width: 1000px) {
-      @content;
-    }
-  } @else 
-  if $point == small {
-    @media (max-width: 667px) {
-      @content;
-    }
-  }
-}
-
 img {
   max-width: 80vw;
   height: auto;
   width: auto;
-  max-height: 80vh;
-}
+  max-height: 80vh; }
 
 .caption {
   text-align: left;
   margin-top: 5px;
   position: absolute;
   bottom: 39px;
-  left: 20px;
-  @include resize(small) {
-    bottom: 18px;
-  }
-}
+  left: 20px; }
+  @media (max-width: 667px) {
+    .caption {
+      bottom: 18px; } }
 
 .flickity-viewport {
-  height: 100vh;
-}
+  height: 100vh; }
 
 .carousel {
   max-width: 100%;
-  height: 100vh;
-}
+  height: 100vh; }
 
 .carousel-cell {
   overflow: hidden;
   height: 100vh;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .button-row {
   z-index: 1;
-  display: inline-block;
-  @include resize(small) {
-    display: none;
-  }
-}
+  display: inline-block; }
+  @media (max-width: 667px) {
+    .button-row {
+      display: none; } }
 
 .button {
   border: 0;
@@ -68,16 +50,14 @@ img {
   background: none;
   text-decoration: none;
   cursor: pointer;
-  touch-action: manipulation;
-}
+  -ms-touch-action: manipulation;
+      touch-action: manipulation; }
 
 .button:hover {
-  color: grey;
-}
+  color: grey; }
 
 .button.is-selected {
-  border-bottom: 1.5px solid black;
-}
+  border-bottom: 1.5px solid black; }
 
 .button.button--previous {
   position: absolute;
@@ -88,8 +68,8 @@ img {
   z-index: 1;
   outline: none !important;
   font-size: 16px;
-  touch-action: manipulation;
-}
+  -ms-touch-action: manipulation;
+      touch-action: manipulation; }
 
 .button.button--next {
   position: absolute;
@@ -100,26 +80,21 @@ img {
   z-index: 1;
   outline: none !important;
   font-size: 16px;
-  touch-action: manipulation;
-}
-// Flickity
+  -ms-touch-action: manipulation;
+      touch-action: manipulation; }
 
 .flickity-enabled {
-  position: relative;
-}
+  position: relative; }
 
 .flickity-enabled:focus {
-  outline: none;
-}
+  outline: none; }
 
 .flickity-viewport {
   overflow: hidden;
   position: relative;
-  height: 100%;
-}
+  height: 100%; }
 
 .flickity-slider {
   position: absolute;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }

@@ -1,8 +1,27 @@
+@mixin resize($point) {
+  @if $point == large {
+    @media (max-width: 1600px) {
+      @content;
+    }
+  } @else 
+  if $point == mid {
+    @media (max-width: 1000px) {
+      @content;
+    }
+  } @else 
+  if $point == small {
+    @media (max-width: 667px) {
+      @content;
+    }
+  }
+}
+
 .btn {
   position: fixed;
   right: 18px;
   top: 18px;
   cursor: help;
+  z-index: 2;
 }
 
 #custom_modal {
@@ -10,7 +29,7 @@
   /* Hidden by default */
   position: fixed;
   /* Stay in place */
-  z-index: 1;
+  z-index: 4;
   /* Sit on top */
   width: 100%;
   /* Full width */
