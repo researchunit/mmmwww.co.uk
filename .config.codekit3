@@ -626,7 +626,11 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/src\/img\/apple-icon-180x180.png",
 	"iconImageWasSetByUser": 0,
+<<<<<<< HEAD
 	"lastBuiltDate": 550970631
+=======
+	"lastBuiltDate": 550966029
+>>>>>>> parent of 82c6075... Updated Images
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
