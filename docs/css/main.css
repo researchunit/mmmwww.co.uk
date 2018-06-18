@@ -487,7 +487,7 @@ img {
   /* Hidden by default */
   position: fixed;
   /* Stay in place */
-  z-index: 4;
+  z-index: 2;
   /* Sit on top */
   width: 100%;
   /* Full width */
@@ -580,4 +580,13 @@ html {
   width: 100%;
   height: 100%;
   -ms-touch-action: manipulation;
-      touch-action: manipulation; }
+      touch-action: manipulation;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }

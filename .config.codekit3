@@ -23,12 +23,6 @@
 		"oAP": "\/docs\/CNAME",
 		"oF": 0
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
-		},
 	"\/src\/css\/_info.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -612,8 +606,8 @@
 		"oA": 0,
 		"oAP": "\/docs\/js\/main.js",
 		"oF": 1,
-		"sC": 1,
-		"tS": 0
+		"sC": 0,
+		"tS": 1
 		}
 	},
 "hooks": [
@@ -626,7 +620,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/src\/img\/apple-icon-180x180.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 551051131
+	"lastBuiltDate": 551052525
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
