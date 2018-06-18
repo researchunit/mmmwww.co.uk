@@ -16,6 +16,16 @@
 		"oAP": "\/docs\/.gitignore",
 		"oF": 1
 		},
+<<<<<<< HEAD
+=======
+	"\/beta\/css\/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/beta\/css\/main.css.map",
+		"oF": 0
+		},
+>>>>>>> parent of a7116e3... Disable double tap
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -620,7 +630,11 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/src\/img\/apple-icon-180x180.png",
 	"iconImageWasSetByUser": 0,
+<<<<<<< HEAD
 	"lastBuiltDate": 551052525
+=======
+	"lastBuiltDate": 550969177
+>>>>>>> parent of a7116e3... Disable double tap
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
