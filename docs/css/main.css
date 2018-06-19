@@ -376,9 +376,9 @@ footer h2 {
 
 img {
   max-width: 80vw;
+  max-height: 80vh;
   height: auto;
-  width: auto;
-  max-height: 80vh; }
+  width: auto; }
 
 .caption {
   text-align: left;
@@ -390,16 +390,13 @@ img {
     .caption {
       bottom: 18px; } }
 
-.flickity-viewport {
-  height: 100vh; }
-
 .carousel {
   max-width: 100%;
-  height: 100vh; }
+  height: 100%; }
 
 .carousel-cell {
   overflow: hidden;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -573,6 +570,10 @@ body,
 html {
   width: 100%;
   height: 100%;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation; }
+
+body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -582,6 +583,4 @@ html {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation; }
+          justify-content: center; }

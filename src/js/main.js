@@ -10,7 +10,6 @@ var flkty = new Flickity(elem, {
   selectedAttraction: 1,
   friction: 1,
   draggable: false,
-    imagesLoaded: true,
   prevNextButtons: false,
   pageDots: false
 });
