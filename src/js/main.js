@@ -5,10 +5,10 @@ var utils = window.fizzyUIUtils;
 var elem = document.querySelector('.carousel');
 var flkty = new Flickity(elem, {
   imagesLoaded: true,
-  contain: true,
   wrapAround: true,
   selectedAttraction: 1,
   friction: 1,
+  setGallerySize: false,
   draggable: false,
   prevNextButtons: false,
   pageDots: false
@@ -43,6 +43,10 @@ previousButton.addEventListener('click', function() {
 var nextButton = document.querySelector('.button--next');
 nextButton.addEventListener('click', function() {
   flkty.next();
+});
+
+window.addEventListener( 'load', function() {
+  flkty.resize();
 });
 
 // modal
