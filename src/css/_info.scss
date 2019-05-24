@@ -50,7 +50,7 @@
   margin: 18px 80px 18px 140px;
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
+  max-width: 1100px;
   @include resize(small) {
     flex-direction: column;
     justify-content: center;
@@ -64,7 +64,7 @@
 }
 
 .info-first {
-  width: 60%;
+  width: 50%;
   @include resize(small) {
     width: 100%;
   }
@@ -72,14 +72,9 @@
 
 .info-second,
 .info-thrid {
+  width: 25%;
   @include resize(small) {
     margin-top: 18px;
-  }
-}
-
-.info-thrid {
-  width: 15%;
-  @include resize(small) {
     width: 100%;
   }
 }
